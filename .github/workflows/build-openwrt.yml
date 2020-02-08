@@ -1,4 +1,4 @@
-#=================================================3
+#=================================================
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 # Lisence: MIT
@@ -6,13 +6,13 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build OpenWrt
+#name: Build OpenWrt
 
-on:
-  release:
-    types: [published]
-  push:
-    branches:
+#on:
+#  release:
+#    types: [published]
+#  push:
+#    branches:
       - master
     paths:
       - '.config'
