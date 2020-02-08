@@ -8,11 +8,11 @@
 
 #name: Build OpenWrt
 
-#on:
-#  release:
-#    types: [published]
-#  push:
-#    branches:
+on:
+  release:
+    types: [published]
+  push:
+    branches:
       - master
     paths:
       - '.config'
